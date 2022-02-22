@@ -1,0 +1,115 @@
+/*# sourceMappingURL=main.css.map */
+
+@media only screen and (max-width:770px){
+    #home{
+      margin-top:2rem;
+    }
+    #header{
+        display:none;
+    }
+    #home .homeleft{
+      padding-left: 5%;
+    }
+    #home #aboutme{ 
+      margin: 2rem;
+    }
+    #home .homeright .btn{
+      margin-top:1.4rem;
+      margin-right:0.1rem;
+    }
+  
+    #projects .projectsContent {
+      flex-direction: column;
+  }
+  #projects .projectsContent .projectsDetails .aboutProject img{
+    width: 30rem;
+      height: 18rem;
+  }
+  #skills .skillcontent .rightskill{
+    width:60%;
+  }
+  #skills .skillcontent .leftskill{
+    padding:1rem;
+    width:40%;
+  }
+  
+  #experience{
+    padding: 1rem 0;
+  }
+  #experience .experienceContent{
+    margin:0;
+  }
+  #contact #contactContent .leftcontact, #contact #contactContent .midcontact, #contact #contactContent .rightcontact {
+    margin:1rem;
+  }
+  
+  
+  }
+  
+  
+  
+  
+  @media only screen and (max-width:425px){
+    #certification .projectsContent .projectsDetails .aboutProject img{
+      width:15rem;
+    }
+    #projects .projectsContent .projectsDetails .aboutProject img{
+      width:15rem;
+      height:12rem;
+    }
+    #contact #contactContent{
+      flex-direction:column;
+    }
+    
+    #home{
+      padding:2rem;
+    }
+    #home .homecontent{
+      flex-direction:column;
+    }
+    #home .homeleft, #home .homeright{
+      width:100%;
+      padding-left: 0;
+      padding-top:1rem;
+    }
+    #home .homeright{
+      display:flex;
+      flex-direction:column;
+    }
+    #home .homeright .btn{
+      margin:0.8rem;
+    }
+    #home #aboutme{
+      margin:0;
+      flex-direction:column;
+    }
+    #home #aboutme .aboutleft img{
+      height:10rem;
+      margin-bottom:2rem;
+    }
+    #home #aboutme .aboutright .button{
+      width:14rem;
+      margin:0.4rem 1rem;
+    }
+    #home #aboutme .aboutright{
+      width:90%;
+    }
+    #skills .skillcontent{
+      flex-direction:column;
+    }
+    #skills .skillcontent .leftskill{
+      width:100%;
+    }
+    #skills .skillcontent .rightskill{
+      width:100%;
+    }
+  }
+  
+  @media only screen and (max-width:375px){
+    #home #aboutme .aboutright .button{
+      width:11rem;
+    }
+    #contact .contactSocial a{
+      margin:0.5rem;
+    }
+  }
