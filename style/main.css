@@ -81,7 +81,7 @@ header {
   background-color: #fdfdfd;
   width: 100vw;
   padding: 0 2rem;
-  -webkit-box-shadow: 0.4rem 0.4rem 0.7rem -0.1rem rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0.4rem 0.7rem -0.1rem rgba(0, 0, 0, 0.8);
           box-shadow: 0.4rem 0.4rem 0.7rem -0.1rem rgba(0, 0, 0, 0.8);
   position: fixed;
   left: 0;
@@ -1300,8 +1300,8 @@ main .homecontent .homeright .wrapper .dynamic-text li span::after {
 }
 
 .goToTop img {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
 }
 
 footer {
